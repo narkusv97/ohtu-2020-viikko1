@@ -1,0 +1,6 @@
+#Ignoorataan tmp-päätteiset tiedostot
+*.tmp
+#Ignoorataan hakemistot joilla nimi build
+build/
+#Ignoorataan hakemistot joilla nimi .gradle
+.gradle/
