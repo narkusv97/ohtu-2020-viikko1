@@ -99,5 +99,6 @@ public class VarastoTest {
 
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
-
+	
+	
 }
