@@ -1,5 +1,5 @@
 package ohtu.ohtuvarasto;
-import paaohjelma.Main
+import paaohjelma.Main;
 
 public class Varasto {
 

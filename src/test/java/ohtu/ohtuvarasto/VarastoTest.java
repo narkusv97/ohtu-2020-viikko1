@@ -18,7 +18,6 @@ public class VarastoTest {
     @Before
     public void setUp() {
         varasto = new Varasto(10);
-		varasto2 = new Varasto(-10);
     }
 
     @Test
@@ -99,11 +98,6 @@ public class VarastoTest {
         varasto.otaVarastosta(18);
 
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
-    }
-	
-	@Test
-    public void test6() {
-        assertEquals(0.0, varasto1.getTilavuus, vertailuTarkkuus);
     }
 
 }
